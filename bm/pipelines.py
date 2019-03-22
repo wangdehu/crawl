@@ -6,9 +6,9 @@
 # See: https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 
 import pymysql
-# import sw.settings
+# import bm.settings
 
-class SwPipeline(object):
+class BmPipeline(object):
     def __init__(self):
         self.con = pymysql.connect(host='localhost', port=3306, user='root', passwd='123456', db='stu', charset='utf8')
         self.cur = self.con.cursor()

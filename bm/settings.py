@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for sw project
+# Scrapy settings for bm_stu project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,14 +9,14 @@
 #     https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'sw'
+BOT_NAME = 'bm'
 
-SPIDER_MODULES = ['sw.spiders']
-NEWSPIDER_MODULE = 'sw.spiders'
+SPIDER_MODULES = ['bm.spiders']
+NEWSPIDER_MODULE = 'bm.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'sw (+http://www.yourdomain.com)'
+#USER_AGENT = 'bm (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -58,13 +58,13 @@ MYSQL_CHARSET = "utf8"
 # Enable or disable spider middlewares
 # See https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'sw.middlewares.SwSpiderMiddleware': 543,
+#    'bm_stu.middlewares.BmStuSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'sw.middlewares.SwDownloaderMiddleware': 543,
+#    'bm_stu.middlewares.BmStuDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -76,7 +76,7 @@ MYSQL_CHARSET = "utf8"
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   'sw.pipelines.SwPipeline': 300,
+   'bm.pipelines.BmPipeline': 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)

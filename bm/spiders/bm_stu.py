@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 import scrapy
-import requests
 import re
-from sw.items import SwItem
+from bm.items import BmStuItem
 
 class BmStuSpider(scrapy.Spider):
     name = 'bm_stu'
@@ -12,9 +11,6 @@ class BmStuSpider(scrapy.Spider):
 
     def parse(self, response):
         ls = response.css('ul.listUl')
-        
-        
-        
         for news in ls.css('li'):
             urls = self.url + news.css('a::attr(href)').extract_first()[8:] 
             title = news.css('a::text').extract_first()
@@ -24,7 +20,7 @@ class BmStuSpider(scrapy.Spider):
         
     def parse_content(self,response):
 
-        item = SwItem()
+        item = BmStuItem()
         item["href"] =response.url
         item["key"] = response.meta["key"]
         item["title"] =response.meta["title"]

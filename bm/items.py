@@ -8,7 +8,7 @@
 import scrapy
 
 
-class SwItem(scrapy.Item):
+class BmStuItem(scrapy.Item):
 
     title = scrapy.Field()
     author = scrapy.Field()

@@ -1,0 +1,72 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BOT_NAME	../bm/settings.py	/^BOT_NAME = 'bm'$/;"	kind:variable	line:12
+BmDownloaderMiddleware	../bm/middlewares.py	/^class BmDownloaderMiddleware(object):$/;"	kind:class	line:59
+BmEduSpider	../bm/spiders/bm_edu.py	/^class BmEduSpider(scrapy.Spider):$/;"	kind:class	line:6
+BmPipeline	../bm/pipelines.py	/^class BmPipeline(object):$/;"	kind:class	line:11
+BmSpiderMiddleware	../bm/middlewares.py	/^class BmSpiderMiddleware(object):$/;"	kind:class	line:11
+BmStuItem	../bm/items.py	/^class BmStuItem(scrapy.Item):$/;"	kind:class	line:11
+BmStuSpider	../bm/spiders/bm_stu.py	/^class BmStuSpider(scrapy.Spider):$/;"	kind:class	line:6
+BmStuSpider	../bm/spiders/bm_tea.py	/^class BmStuSpider(scrapy.Spider):$/;"	kind:class	line:6
+ITEM_PIPELINES	../bm/settings.py	/^ITEM_PIPELINES = {$/;"	kind:variable	line:78
+MYSQL_CHARSET	../bm/settings.py	/^MYSQL_CHARSET = "utf8"$/;"	kind:variable	line:32
+MYSQL_DBNAME	../bm/settings.py	/^MYSQL_DBNAME = "test"$/;"	kind:variable	line:28
+MYSQL_HOST	../bm/settings.py	/^MYSQL_HOST = 'localhost'$/;"	kind:variable	line:27
+MYSQL_PASSWD	../bm/settings.py	/^MYSQL_PASSWD = "123456"$/;"	kind:variable	line:30
+MYSQL_PORT	../bm/settings.py	/^MYSQL_PORT = 3306$/;"	kind:variable	line:31
+MYSQL_USER	../bm/settings.py	/^MYSQL_USER = 'root'$/;"	kind:variable	line:29
+NEWSPIDER_MODULE	../bm/settings.py	/^NEWSPIDER_MODULE = 'bm.spiders'$/;"	kind:variable	line:15
+ROBOTSTXT_OBEY	../bm/settings.py	/^ROBOTSTXT_OBEY = True$/;"	kind:variable	line:22
+SPIDER_MODULES	../bm/settings.py	/^SPIDER_MODULES = ['bm.spiders']$/;"	kind:variable	line:14
+__init__	../bm/pipelines.py	/^    def __init__(self):$/;"	kind:member	line:12
+__init__.py	../bm/__init__.py	1;"	kind:file	line:1
+__init__.py	../bm/spiders/__init__.py	1;"	kind:file	line:1
+allowed_domains	../bm/spiders/bm_edu.py	/^    allowed_domains = ['bm.cugb.edu.cn']$/;"	kind:variable	line:9
+allowed_domains	../bm/spiders/bm_stu.py	/^    allowed_domains = ['bm.cugb.edu.cn']$/;"	kind:variable	line:9
+allowed_domains	../bm/spiders/bm_tea.py	/^    allowed_domains = ['bm.cugb.edu.cn']$/;"	kind:variable	line:9
+author	../bm/items.py	/^    author = scrapy.Field()$/;"	kind:variable	line:14
+bm_edu.py	../bm/spiders/bm_edu.py	1;"	kind:file	line:1
+bm_stu.py	../bm/spiders/bm_stu.py	1;"	kind:file	line:1
+bm_tea.py	../bm/spiders/bm_tea.py	1;"	kind:file	line:1
+content	../bm/items.py	/^    content = scrapy.Field()$/;"	kind:variable	line:19
+date	../bm/items.py	/^    date = scrapy.Field()$/;"	kind:variable	line:15
+from_crawler	../bm/middlewares.py	/^    def from_crawler(cls, crawler):$/;"	kind:member	line:17
+from_crawler	../bm/middlewares.py	/^    def from_crawler(cls, crawler):$/;"	kind:member	line:65
+href	../bm/items.py	/^    href = scrapy.Field()$/;"	kind:variable	line:20
+items.py	../bm/items.py	1;"	kind:file	line:1
+key	../bm/items.py	/^    key = scrapy.Field()$/;"	kind:variable	line:18
+middlewares.py	../bm/middlewares.py	1;"	kind:file	line:1
+name	../bm/spiders/bm_edu.py	/^    name = 'bm_stu'$/;"	kind:variable	line:7
+name	../bm/spiders/bm_stu.py	/^    name = 'bm_stu'$/;"	kind:variable	line:7
+name	../bm/spiders/bm_tea.py	/^    name = 'bm_tea'$/;"	kind:variable	line:7
+parse	../bm/spiders/bm_edu.py	/^    def parse(self, response):$/;"	kind:member	line:12
+parse	../bm/spiders/bm_stu.py	/^    def parse(self, response):$/;"	kind:member	line:12
+parse	../bm/spiders/bm_tea.py	/^    def parse(self, response):$/;"	kind:member	line:12
+parse_content	../bm/spiders/bm_edu.py	/^    def parse_content(self,response):$/;"	kind:member	line:21
+parse_content	../bm/spiders/bm_stu.py	/^    def parse_content(self,response):$/;"	kind:member	line:21
+parse_content	../bm/spiders/bm_tea.py	/^    def parse_content(self,response):$/;"	kind:member	line:21
+pipelines.py	../bm/pipelines.py	1;"	kind:file	line:1
+process_exception	../bm/middlewares.py	/^    def process_exception(self, request, exception, spider):$/;"	kind:member	line:92
+process_item	../bm/pipelines.py	/^    def process_item(self, item, spider):$/;"	kind:member	line:16
+process_request	../bm/middlewares.py	/^    def process_request(self, request, spider):$/;"	kind:member	line:71
+process_response	../bm/middlewares.py	/^    def process_response(self, request, response, spider):$/;"	kind:member	line:83
+process_spider_exception	../bm/middlewares.py	/^    def process_spider_exception(self, response, exception, spider):$/;"	kind:member	line:38
+process_spider_input	../bm/middlewares.py	/^    def process_spider_input(self, response, spider):$/;"	kind:member	line:23
+process_spider_output	../bm/middlewares.py	/^    def process_spider_output(self, response, result, spider):$/;"	kind:member	line:30
+process_start_requests	../bm/middlewares.py	/^    def process_start_requests(self, start_requests, spider):$/;"	kind:member	line:46
+settings.py	../bm/settings.py	1;"	kind:file	line:1
+spider_closed	../bm/pipelines.py	/^    def spider_closed(self, spider):$/;"	kind:member	line:34
+spider_opened	../bm/middlewares.py	/^    def spider_opened(self, spider):$/;"	kind:member	line:102
+spider_opened	../bm/middlewares.py	/^    def spider_opened(self, spider):$/;"	kind:member	line:55
+start_urls	../bm/spiders/bm_edu.py	/^    start_urls = ['http:\/\/bm.cugb.edu.cn\/jwc\/xszq\/']$/;"	kind:variable	line:10
+start_urls	../bm/spiders/bm_stu.py	/^    start_urls = ['http:\/\/bm.cugb.edu.cn\/jwc\/xszq\/']$/;"	kind:variable	line:10
+start_urls	../bm/spiders/bm_tea.py	/^    start_urls = ['http:\/\/bm.cugb.edu.cn\/jwc\/jszq\/']$/;"	kind:variable	line:10
+title	../bm/items.py	/^    title = scrapy.Field()$/;"	kind:variable	line:13
+types	../bm/items.py	/^    types = scrapy.Field()$/;"	kind:variable	line:16
+url	../bm/spiders/bm_edu.py	/^    url = 'http:\/\/bm.cugb.edu.cn\/jwc\/xszq\/'$/;"	kind:variable	line:8
+url	../bm/spiders/bm_stu.py	/^    url = 'http:\/\/bm.cugb.edu.cn\/jwc\/xszq\/'$/;"	kind:variable	line:8
+url	../bm/spiders/bm_tea.py	/^    url = 'http:\/\/bm.cugb.edu.cn\/jwc\/jszq\/'$/;"	kind:variable	line:8
